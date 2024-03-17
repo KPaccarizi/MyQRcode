@@ -1,9 +1,7 @@
 # MyQRcode
 
-
 ```markdown
 # QR Code Generator
-
 
 ## Installation Requirements
 
@@ -14,10 +12,12 @@ Before running the script, ensure you have the following libraries installed:
 - **pillow**: Required for image processing tasks.
 
 You can install these libraries using pip:
+
+```
 pip install qrcode
 pip install pyzbar
 pip install pillow
-
+```
 
 ## Usage
 
@@ -25,9 +25,9 @@ pip install pillow
 
 2. Run the script:
 
+   ```
    python qr_code_generator.py
-
-
+   ```
 
 
 
