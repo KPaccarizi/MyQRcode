@@ -5,31 +5,30 @@
 # QR Code Generator
 
 
-## Installation
+## Installation Requirements
 
-1. Make sure you have Python installed on your system. 
-You can download it from [python.org](https://www.python.org/downloads/).
+Before running the script, ensure you have the following libraries installed:
 
-2. Install the required libraries by running:
-   ```
-   pip install qrcode
-   pip install pyzbar
-   pip install pillow
-   ```
+- **qrcode**: This library is used to generate QR codes.
+- **pyzbar**: Used for decoding QR codes.
+- **pillow**: Required for image processing tasks.
 
-   Alternatively, you can install them all at once by running:
-   ```
-   pip install qrcode pyzbar pillow
-   ```
+You can install these libraries using pip:
+pip install qrcode
+pip install pyzbar
+pip install pillow
+
 
 ## Usage
 
 1. Modify the script to include the URLs you want to generate QR codes for.
 
 2. Run the script:
-   ```
+
    python qr_code_generator.py
-   ```
+
+
+
 
 
 
