@@ -32,10 +32,4 @@ You can download it from [python.org](https://www.python.org/downloads/).
    ```
 
 
-```
-
-Once the libraries are installed, you can proceed with running the script as described in the Usage section above.
-
-
-```
 
