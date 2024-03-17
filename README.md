@@ -1,34 +1,19 @@
-# MyQRcode
 
-```markdown
-# QR Code Generator
+# QR Code Generator and Decoder
 
-## Installation Requirements
+This Python script generates QR codes for specified URLs and decodes them.
 
-Before running the script, ensure you have the following libraries installed:
+## Requirements
 
-- **qrcode**: This library is used to generate QR codes.
-- **pyzbar**: Used for decoding QR codes.
-- **pillow**: Required for image processing tasks.
-
-You can install these libraries using pip:
-
-```
-pip install qrcode
-pip install pyzbar
-pip install pillow
-```
-
-## Usage
-
-1. Modify the script to include the URLs you want to generate QR codes for.
-
-2. Run the script:
-
-   ```
-   python qr_code_generator.py
-   ```
+- Python 3
+- `qrcode` package. This library is used to generate QR codes.
+- `pyzbar` package. Used for decoding QR codes.
+- `Pillow` package. Required for image processing tasks.
 
 
+## Installation
 
+Install the required packages using pip:
 
+```bash
+pip install qrcode pyzbar Pillow
