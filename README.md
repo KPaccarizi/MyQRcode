@@ -1,7 +1,7 @@
 # MyQRcode
 
 
-```
+```markdown
 # QR Code Generator
 
 This Python script generates QR codes for given URLs using the `qrcode` library. It also includes functionality to decode the QR code using the `pyzbar` library.
